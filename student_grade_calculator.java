@@ -6,7 +6,7 @@ public class STUDENT_GRADE_CALCULATOR {
         Scanner sc = new Scanner(System.in);
 
 
-            String[] Subject = {"DBMS", "JAVA", "PS", "DAA", "MEFA"};
+            String[] Subject = {"Subject1", "Subject2", "Subject3", "Subject4", "Subject5"};
             int[] Marks = new int[Subject.length];
         for (int i = 0; i < Subject.length; i++) {
             int mark;
